@@ -9,7 +9,7 @@ import { SeguridadService } from './seguridad.service';
 })
 export class UsuarioService {
 
-  url = `https://backend-mascota-feliz-ciclo4.vercel.app/`;
+  url = `https://backend-mascota-feliz-ciclo4.vercel.app`;
   token: string = " ";
   constructor(private http: HttpClient,
     private seguridadServicio: SeguridadService) { 
