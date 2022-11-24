@@ -8,7 +8,7 @@ import { ModeloIdentificar } from '../modelos/identificar.modelo';
 })
 export class SeguridadService {
 
-  url = `https://backend-mascota-feliz-ciclo4.vercel.app`;
+  url = `http://localhost:3000/`;
   datosUsuarioEnSesion = new BehaviorSubject<ModeloIdentificar>(new ModeloIdentificar())
   constructor(private http: HttpClient) {
     this.VerificarSesionActual();
